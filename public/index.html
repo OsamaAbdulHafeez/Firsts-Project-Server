@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>my dummy temperture api</h1>
+
+    <form onsubmit="getWeather();return false">
+        <input type="text" placeholder="Enter City Name" id="cityName">
+        <button>Submit</button>
+    </form>
+    <div id="content">
+        <!-- <p>City:<span></span></p>
+        <p>temperature:<span></span></p>
+        <p>humidity:<span></span></p>
+        <p>cloud:<span></span></p> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
